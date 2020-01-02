@@ -1,0 +1,31 @@
+{
+  "name": "@negebauer/eslint-config-base",
+  "description": "@negebauer 's eslint config base",
+  "license": "MIT",
+  "author": "Nicolas Gebauer <hello@negebauer.com> (https://negebauer.com)",
+  "repository": "https://github.com/negebauer/eslint-config.git",
+  "version": "0.2.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm-install-peers > /dev/null && echo Installed peerDependencies",
+    "lint": "eslint --ext .js .",
+    "lint:fix": "yarn lint --fix",
+    "lint:package": "prettier-package-json --write package.json"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "prettier": "^1.19.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">=10",
+    "eslint": ">=6",
+    "eslint-plugin-flowtype": ">=4",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-jsx-a11y": ">=6",
+    "eslint-plugin-prettier": ">=3"
+  },
+  "devDependencies": {
+    "npm-install-peers": "^1.2.1"
+  }
+}

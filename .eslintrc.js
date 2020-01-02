@@ -1,1 +1,1 @@
-module.exports = require('@negebauer/eslint-config-base')
+module.exports = require('./packages/base')

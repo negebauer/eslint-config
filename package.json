@@ -1,18 +1,18 @@
 {
-  "name": "@negebauer/eslint-config",
-  "description": "@negebauer 's eslint config",
-  "license": "MIT",
-  "author": "Nicolas Gebauer <hello@negebauer.com> (https://negebauer.com)",
-  "repository": "https://github.com/negebauer/eslint-config.git",
-  "version": "0.1.1",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "lint:package": "prettier-package-json --write package.json",
-    "release": "standard-version",
-    "postrelease": "git push --follow-tags && yarn publish --non-interactive --access public"
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "lint:fix": "lerna run lint:fix",
+    "lint:package": "prettier-package-json --write package.json; lerna run lint:package",
+    "link": "lerna link"
   },
   "devDependencies": {
-    "prettier-package-json": "^2.1.3",
-    "standard-version": "^7.0.1"
-  }
+    "@negebauer/prettier-config": "^1.0.3",
+    "lerna": "^3.20.2",
+    "prettier-package-json": "^2.1.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
