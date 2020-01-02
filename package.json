@@ -4,8 +4,7 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "link": "lerna link",
+    "bootstrap": "lerna bootstrap && lerna run peers && lerna link",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
     "lint:package": "prettier-package-json --write package.json; lerna run lint:package",
