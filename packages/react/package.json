@@ -7,10 +7,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm-install-peers > /dev/null && echo Installed peerDependencies",
     "lint": "eslint --ext .js .",
     "lint:fix": "yarn lint --fix",
-    "lint:package": "prettier-package-json --write package.json"
+    "lint:package": "prettier-package-json --write package.json",
+    "peers": "npm-install-peers > /dev/null && echo Installed peerDependencies"
   },
   "dependencies": {
     "@negebauer/eslint-config-base": "^1.0.0",
