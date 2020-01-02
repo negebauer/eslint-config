@@ -9,7 +9,7 @@
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
     "lint:package": "prettier-package-json --write package.json; lerna run lint:package",
-    "release": "lerna version"
+    "release": "lerna version --conventional-commits"
   },
   "devDependencies": {
     "@negebauer/prettier-config": "^1.0.3",
