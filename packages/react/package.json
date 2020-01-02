@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Nicolas Gebauer <hello@negebauer.com> (https://negebauer.com)",
   "repository": "https://github.com/negebauer/eslint-config.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js .",
@@ -13,7 +13,7 @@
     "peers": "npm-install-peers > /dev/null && echo Installed peerDependencies"
   },
   "dependencies": {
-    "@negebauer/eslint-config-base": "^1.0.0",
+    "@negebauer/eslint-config-base": "^1.0.1",
     "eslint-config-airbnb": "^18.0.1"
   },
   "peerDependencies": {
