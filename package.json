@@ -1,0 +1,9 @@
+{
+  "name": "@negebauer/eslint-config",
+  "version": "1.0.0",
+  "description": "@negebauer 's eslint config",
+  "main": "index.js",
+  "repository": "https://github.com/negebauer/eslint-config.git",
+  "author": "Nicolas Gebauer <hello@negebauer.com> (https://negebauer.com)",
+  "license": "MIT"
+}
