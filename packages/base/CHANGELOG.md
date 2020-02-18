@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/negebauer/eslint-config/compare/v1.1.0...v1.2.0) (2020-02-18)
+
+
+### Features
+
+* use jest env by default ([f9a892c](https://github.com/negebauer/eslint-config/commit/f9a892c8b76cad53204aab830c2655f297e1cfac))
+
+
+
+
+
 # [1.1.0](https://github.com/negebauer/eslint-config/compare/v1.0.1...v1.1.0) (2020-01-02)
 
 
