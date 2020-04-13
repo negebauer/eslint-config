@@ -12,8 +12,9 @@ yarn add -D @negebauer/eslint-config-base
 
 Set up you eslint config to extend this config
 
+- .eslintrc.json
+
 ```json
-// .eslintrc.json
 {
     "extends": [
         "@negebauer/eslint-config-base"

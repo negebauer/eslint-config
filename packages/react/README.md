@@ -12,8 +12,9 @@ yarn add -D @negebauer/eslint-config-react
 
 Set up you eslint config to extend this config
 
+- .eslintrc.json
+
 ```json
-// .eslintrc.json
 {
     "extends": [
         "@negebauer/eslint-config-react"
