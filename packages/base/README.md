@@ -25,5 +25,5 @@ Set up you eslint config to extend this config
 Install dependencies
 
 ```sh
-yarn add -D babel-eslint" eslint" eslint-plugin-import" eslint-plugin-jsx-a11y" eslint-plugin-prettier"
+yarn add -D babel-eslint eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier
 ```
